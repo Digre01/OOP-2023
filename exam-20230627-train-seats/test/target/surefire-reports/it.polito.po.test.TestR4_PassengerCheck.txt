@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: it.polito.po.test.TestR4_PassengerCheck
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.polito.po.test.TestR4_PassengerCheck
+testLastStop(it.polito.po.test.TestR4_PassengerCheck)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<2>
+	at it.polito.po.test.TestR4_PassengerCheck.testLastStop(TestR4_PassengerCheck.java:42)
+

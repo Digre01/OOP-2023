@@ -1,0 +1,6 @@
+example/TestExample.class
+it/polito/po/test/TestR4_PassengerCheck.class
+it/polito/po/test/TestR1_Cars.class
+it/polito/po/test/TestR2_Schedule.class
+it/polito/po/test/TestR3_Bookings.class
+it/polito/po/test/TestR5_Stats.class

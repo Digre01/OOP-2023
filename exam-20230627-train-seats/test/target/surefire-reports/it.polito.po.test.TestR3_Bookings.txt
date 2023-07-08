@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: it.polito.po.test.TestR3_Bookings
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.polito.po.test.TestR3_Bookings
+testBookingPartialOverlap(it.polito.po.test.TestR3_Bookings)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong slot for booking not detected: expected it.ffss.train.TrainException to be thrown, but nothing was thrown
+	at it.polito.po.test.TestR3_Bookings.testBookingPartialOverlap(TestR3_Bookings.java:71)
+
+testNonBookedSeats(it.polito.po.test.TestR3_Bookings)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong number of available seats expected:<79> but was:<80>
+	at it.polito.po.test.TestR3_Bookings.testNonBookedSeats(TestR3_Bookings.java:130)
+
+testBookingFullOverlap(it.polito.po.test.TestR3_Bookings)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong slot for booking not detected: expected it.ffss.train.TrainException to be thrown, but nothing was thrown
+	at it.polito.po.test.TestR3_Bookings.testBookingFullOverlap(TestR3_Bookings.java:63)
+

@@ -1,0 +1,102 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< it.polito.oop.exam:trains >----------------------
+[INFO] Building trains 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ trains ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/mtk/Documents/Teaching/_OOP/Esami/20230627/consegne/s281273/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ trains ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ trains ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/mtk/Documents/Teaching/_OOP/Esami/20230627/consegne/s281273/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ trains ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /Users/mtk/Documents/Teaching/_OOP/Esami/20230627/consegne/s281273/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ trains ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running example.TestExample
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in example.TestExample
+[ERROR] testAll(example.TestExample)  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.AssertionError: expected null, but was:<GVNBNC80B14F219K>
+	at example.TestExample.testAll(TestExample.java:94)
+
+[INFO] Running it.polito.po.test.TestR3_Bookings
+[ERROR] Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.polito.po.test.TestR3_Bookings
+[ERROR] testBookingPartialOverlap(it.polito.po.test.TestR3_Bookings)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong slot for booking not detected: expected it.ffss.train.TrainException to be thrown, but nothing was thrown
+	at it.polito.po.test.TestR3_Bookings.testBookingPartialOverlap(TestR3_Bookings.java:71)
+
+[ERROR] testNonBookedSeats(it.polito.po.test.TestR3_Bookings)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong number of available seats expected:<79> but was:<80>
+	at it.polito.po.test.TestR3_Bookings.testNonBookedSeats(TestR3_Bookings.java:130)
+
+[ERROR] testBookingFullOverlap(it.polito.po.test.TestR3_Bookings)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong slot for booking not detected: expected it.ffss.train.TrainException to be thrown, but nothing was thrown
+	at it.polito.po.test.TestR3_Bookings.testBookingFullOverlap(TestR3_Bookings.java:63)
+
+[INFO] Running it.polito.po.test.TestR4_PassengerCheck
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.polito.po.test.TestR4_PassengerCheck
+[ERROR] testLastStop(it.polito.po.test.TestR4_PassengerCheck)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<2>
+	at it.polito.po.test.TestR4_PassengerCheck.testLastStop(TestR4_PassengerCheck.java:42)
+
+[INFO] Running it.polito.po.test.TestR5_Stats
+[ERROR] Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in it.polito.po.test.TestR5_Stats
+[ERROR] testFillRatio(it.polito.po.test.TestR5_Stats)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong fill ratio expected:<0.0125> but was:<-1.0>
+	at it.polito.po.test.TestR5_Stats.testFillRatio(TestR5_Stats.java:50)
+
+[ERROR] testCoverage(it.polito.po.test.TestR5_Stats)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Missing coverage info
+	at it.polito.po.test.TestR5_Stats.testCoverage(TestR5_Stats.java:63)
+
+[ERROR] testOccupationRatio(it.polito.po.test.TestR5_Stats)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong occupation ratio expected:<0.010416666666666666> but was:<-1.0>
+	at it.polito.po.test.TestR5_Stats.testOccupationRatio(TestR5_Stats.java:57)
+
+[INFO] Running it.polito.po.test.TestR1_Cars
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in it.polito.po.test.TestR1_Cars
+[INFO] Running it.polito.po.test.TestR2_Schedule
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in it.polito.po.test.TestR2_Schedule
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   TestExample.testAll:94 expected null, but was:<GVNBNC80B14F219K>
+[ERROR]   TestR3_Bookings.testBookingFullOverlap:63 Wrong slot for booking not detected: expected it.ffss.train.TrainException to be thrown, but nothing was thrown
+[ERROR]   TestR3_Bookings.testBookingPartialOverlap:71 Wrong slot for booking not detected: expected it.ffss.train.TrainException to be thrown, but nothing was thrown
+[ERROR]   TestR3_Bookings.testNonBookedSeats:130 Wrong number of available seats expected:<79> but was:<80>
+[ERROR]   TestR4_PassengerCheck.testLastStop:42 expected:<1> but was:<2>
+[ERROR]   TestR5_Stats.testCoverage:63 Missing coverage info
+[ERROR]   TestR5_Stats.testFillRatio:50 Wrong fill ratio expected:<0.0125> but was:<-1.0>
+[ERROR]   TestR5_Stats.testOccupationRatio:57 Wrong occupation ratio expected:<0.010416666666666666> but was:<-1.0>
+[INFO] 
+[ERROR] Tests run: 24, Failures: 8, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.351 s
+[INFO] Finished at: 2023-06-29T10:42:54+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.0:test (default-test) on project trains: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/mtk/Documents/Teaching/_OOP/Esami/20230627/consegne/s281273/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,6 @@
+it/ffss/train/Seat.class
+it/ffss/train/Booking.class
+it/ffss/train/TrainManager.class
+it/ffss/train/Stop.class
+it/ffss/train/TrainException.class
+it/ffss/train/Car.class

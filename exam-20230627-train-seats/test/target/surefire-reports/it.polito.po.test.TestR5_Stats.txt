@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: it.polito.po.test.TestR5_Stats
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in it.polito.po.test.TestR5_Stats
+testFillRatio(it.polito.po.test.TestR5_Stats)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong fill ratio expected:<0.0125> but was:<-1.0>
+	at it.polito.po.test.TestR5_Stats.testFillRatio(TestR5_Stats.java:50)
+
+testCoverage(it.polito.po.test.TestR5_Stats)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Missing coverage info
+	at it.polito.po.test.TestR5_Stats.testCoverage(TestR5_Stats.java:63)
+
+testOccupationRatio(it.polito.po.test.TestR5_Stats)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong occupation ratio expected:<0.010416666666666666> but was:<-1.0>
+	at it.polito.po.test.TestR5_Stats.testOccupationRatio(TestR5_Stats.java:57)
+
