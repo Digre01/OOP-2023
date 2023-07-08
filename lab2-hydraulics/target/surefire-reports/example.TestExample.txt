@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: example.TestExample
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.112 s <<< FAILURE! - in example.TestExample
+testAll(example.TestExample)  Time elapsed: 0.054 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "hydraulic.Element.layout(StringBuffer)" because "this.outputs[i]" is null
+	at example.TestExample.testAll(TestExample.java:87)
+

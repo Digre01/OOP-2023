@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: it.polito.oop.test.TestR8_MaxFlow
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.polito.oop.test.TestR8_MaxFlow
+testSimpleElements(it.polito.oop.test.TestR8_MaxFlow)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Wrong number of notifications expected:<2> but was:<1>
+	at it.polito.oop.test.TestR8_MaxFlow.testSimpleElements(TestR8_MaxFlow.java:34)
+

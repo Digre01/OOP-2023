@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: it.polito.oop.test.TestR6_Visualization
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in it.polito.oop.test.TestR6_Visualization
+testIncompleteMultisplit(it.polito.oop.test.TestR6_Visualization)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Not enough multisplit branches expected:<3> but was:<4>
+	at it.polito.oop.test.TestR6_Visualization.testIncompleteMultisplit(TestR6_Visualization.java:61)
+
+testSimpleSystem(it.polito.oop.test.TestR6_Visualization)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: Not enough multisplit branches expected:<3> but was:<4>
+	at it.polito.oop.test.TestR6_Visualization.testSimpleSystem(TestR6_Visualization.java:32)
+
